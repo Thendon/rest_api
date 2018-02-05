@@ -1,0 +1,25 @@
+<html>
+<head>
+  <script src="jquery-3.3.1.slim.min.js"></script>
+  <script src="crc.js"></script>
+  <script src="rest_connector.js"></script>
+  <script src="REST_TESTER.js"></script>
+</head>
+<body>
+  <div id="wrapper" style="overflow:hidden; height: 500px; width: 900px;">
+    <div id="buttons" style="float: left; background-color:#f6e58d; height: 100%; width: 20%">
+      <button onclick="registerRandomUser()">registerRandomUser</button><br /><br />
+      <button onclick="loginRandomUser()">loginRandomUser</button><br /><br />
+      <button onclick="logoutLoggedIn()">logoutLoggedIn</button><br /><br />
+      <button onclick="detailsUser1()">detailsUser1</button><br /><br />
+      <button onclick="addOffer()">addOffer</button><br /><br />
+      <button onclick="takeRandomOffer()">takeRandomOffer</button><br /><br />
+      <button onclick="offersAvaliable()">offersAvaliable</button><br /><br />
+      <button onclick="offersOfLoggedIn()">offersOfLoggedIn</button><br /><br />
+    </div>
+
+    <div id="output" style="height: 100%; width: 80%; float:left; background-color:#dff9fb;">
+    </div>
+  </div>
+</body>
+</html>
